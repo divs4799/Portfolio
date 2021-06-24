@@ -352,6 +352,9 @@ footer{
         width: 45%;
         height: 51%;
     }
+    .column-img::before{
+        height: 24%;
+    }
     .column-text{
         padding: 5rem 2rem;
     }
@@ -360,6 +363,7 @@ footer{
     .column-text{
         padding: 5rem 2rem;
     }
+    
 }
 @media screen and (max-width:700px){
     #banner-text{
@@ -415,6 +419,7 @@ footer{
     .column-text{
         padding: 5rem 2rem;
     }
+    .head{height: 14rem;}
     .para .head{margin: 0;}
     #banner-img::before{
         width: 145%;
