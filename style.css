@@ -410,6 +410,14 @@ footer{
     #tech-text{
         margin-left: 1rem;
     }
+    .column-img img{
+        width: 100%;
+        height: 100%;
+    }
+    .column-img::before{
+        width: 100%;
+        height: 43%;
+    }
     #lists{
         flex-direction: column;
     }
