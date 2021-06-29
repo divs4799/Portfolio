@@ -24,7 +24,7 @@ $("#logo-btn").click(()=>{
 
 window.addEventListener("scroll", (event) => {
     let scroll = this.scrollY;
-    console.log(scroll)
+    // console.log(scroll)
     
     if(scroll==0){
         $("#heading").css({"transform":"rotateX(0deg)","color":"#1d272f","border":"2px solid #1d272f"})
@@ -126,3 +126,10 @@ var typed = new Typed('.animate', {
      backSpeed:50,
      loop:true
   });
+  $(".column-img img").click((event)=>{
+   
+      url = document.getElementById(event.target.id).getAttribute("data-url")
+      console.log(url)
+      window.location.href=url
+      
+  })
