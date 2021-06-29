@@ -250,21 +250,21 @@ header .logo{
     
 }
 .column-img img{
-  width: 50%;
-  height: 90%;
-  border-radius: 10px;
-  filter: drop-shadow(20px 20px 14px black);
-  transition: 0.3s;
+    width: 49%;
+    height: 87%;
+    border-radius: 10px;
+    filter: drop-shadow(20px 20px 14px black);
+    transition: 0.3s;
 }
 .column-img::before{
     content: "";
     position: absolute;
     background-color: #D3DBE4;
-    height: 52%;
+    height: 60%;
     z-index: -1;
     border-radius: 100%;
-    width: 34%;
-    transform: translateY(-4rem);
+    width: 43%;
+    transform: translateY(-5rem);
 }
 .column-img img:hover{
     transform: translateY(-1rem);
