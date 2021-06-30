@@ -105,6 +105,7 @@ header .logo{
     flex-direction: column;
 }
 .head{
+    
     margin: 1rem 1rem;
     text-align: left;
     font-family: 'Baloo 2', cursive;
@@ -345,6 +346,9 @@ footer{
 }
 /* responsiveness */
 @media screen and (max-width:1100px) {
+    .head{height: 14rem;}
+    .banner{justify-content: space-between;}
+    #banner-text{width: 45%;}
     .column-img::before{
         transform: translateY(-3rem);
     }
@@ -363,12 +367,14 @@ footer{
     .column-text{
         padding: 5rem 2rem;
     }
+  
     
 }
 @media screen and (max-width:700px){
     #banner-text{
         width: 100%;
     }
+    
     #tech{
         flex-direction: column;
     }
@@ -377,6 +383,9 @@ footer{
     }
     .images{
         transform: scale(0.8);
+    }
+    header::before{
+        height: 18vh;
     }
     
     .column-img::before{
@@ -395,6 +404,7 @@ footer{
     header{
         padding: 0;
     }
+    #banner-text{width: fit-content;}
     .resume{
         margin:2rem
     }
